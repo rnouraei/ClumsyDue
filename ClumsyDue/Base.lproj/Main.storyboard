@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="XkG-oF-bmy" id="9QT-YV-LgJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ClumsyDue" id="mMR-Qj-rRI"/>
+                    <navigationItem key="navigationItem" title="ClumsyDue" id="mMR-Qj-rRI">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hKb-gA-UuO">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="XkG-oF-bmy" id="a3J-tY-hcc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GVa-db-5CQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
